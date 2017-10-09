@@ -9,4 +9,4 @@ dependencies:
   - pandas
   - partd
   - bokeh
-  - pip install dask[complete] distributed --upgrade
+  - conda install dask distributed -c conda-forge
