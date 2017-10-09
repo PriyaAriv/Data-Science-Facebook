@@ -1,19 +1,40 @@
-name: example-environment
-
-# needed for graphviz support
+name: elm-env
 channels:
-  - asmeurer # osx
-  - mutirri # linux
-
+ - conda-forge # essential for rasterio on osx
 dependencies:
-  - pip
-  - numpy
-  - toolz
-  - dill
-  - pandas
-  - partd
-  - blaze
-  - graphviz
-  - pip:
-      - git+https://github.com/blaze/dask.git#egg=dask[complete]
-      - git+https://github.com/blaze/castra.git#egg=castra
+ - attrs
+ - bokeh
+ - dask
+ - datashader
+ - dill
+ - distributed
+ - jupyter
+ - krb5
+ - matplotlib
+ - networkx
+ - numba
+ - numpy
+ - pandas
+ - pyproj
+ - pytest
+ - python
+ - rasterio
+ - requests
+ - scikit-image
+ - scikit-learn
+ - scipy
+ - shapely
+ - statsmodels
+ - tblib
+ - xarray
+ - yaml
+ - six
+ - bioconda::deap
+ - pip:
+   - graphviz
+   - pysptools
+   - pypandoc
+   - geopy
+   - descartes
+   - zict
+   - pytest-rerunfailures
