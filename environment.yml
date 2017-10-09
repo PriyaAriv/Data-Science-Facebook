@@ -1,7 +1,7 @@
 name: example-environment
 
 dependencies:
-  - python=3.5
+  - python=3.4
   - numpy
   - toolz
   - matplotlib
@@ -9,4 +9,4 @@ dependencies:
   - pandas
   - partd
   - bokeh
-  - conda install dask distributed -c conda-forge
+  - pip install dask[complete] distributed
