@@ -38,4 +38,4 @@ dependencies:
    - descartes
    - zict
    - pytest-rerunfailures
-   - git update-index --chmod=+x postBuild
+   - chmod=+x postBuild
