@@ -39,4 +39,4 @@ dependencies:
    - zict
    - pytest-rerunfailures
    - pip:
-     git update-index --chmod=+x postBuild
+     - git update-index --chmod=+x postBuild
