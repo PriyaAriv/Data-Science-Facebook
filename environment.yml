@@ -38,4 +38,3 @@ dependencies:
    - descartes
    - zict
    - pytest-rerunfailures
-   - chmod==+x postBuild
